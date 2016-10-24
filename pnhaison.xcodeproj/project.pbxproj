@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24754B472CBC393F78AA91F1 /* Pods_pnhaison.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371BD3D8137786B60127C0A /* Pods_pnhaison.framework */; };
 		410E5A7D1DBDB40600BEAD86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410E5A7C1DBDB40600BEAD86 /* AppDelegate.swift */; };
 		410E5A7F1DBDB40600BEAD86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410E5A7E1DBDB40600BEAD86 /* ViewController.swift */; };
 		410E5A821DBDB40600BEAD86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410E5A801DBDB40600BEAD86 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0371BD3D8137786B60127C0A /* Pods_pnhaison.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pnhaison.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		410E5A791DBDB40600BEAD86 /* pnhaison.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pnhaison.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		410E5A7C1DBDB40600BEAD86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		410E5A7E1DBDB40600BEAD86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		410E5A981DBDB40600BEAD86 /* pnhaisonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pnhaisonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		410E5A9C1DBDB40600BEAD86 /* pnhaisonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pnhaisonUITests.swift; sourceTree = "<group>"; };
 		410E5A9E1DBDB40600BEAD86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C508DDA808162A9A667B074 /* Pods-pnhaison.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pnhaison.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pnhaison/Pods-pnhaison.debug.xcconfig"; sourceTree = "<group>"; };
+		BA22E6D770DC5AFB08127EC5 /* Pods-pnhaison.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pnhaison.release.xcconfig"; path = "Pods/Target Support Files/Pods-pnhaison/Pods-pnhaison.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24754B472CBC393F78AA91F1 /* Pods_pnhaison.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				410E5A901DBDB40600BEAD86 /* pnhaisonTests */,
 				410E5A9B1DBDB40600BEAD86 /* pnhaisonUITests */,
 				410E5A7A1DBDB40600BEAD86 /* Products */,
+				B29B8A2F0DA3EFD75E6025F2 /* Pods */,
+				AF6193BC236A47A6A0A93B1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,23 @@
 			path = pnhaisonUITests;
 			sourceTree = "<group>";
 		};
+		AF6193BC236A47A6A0A93B1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0371BD3D8137786B60127C0A /* Pods_pnhaison.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B29B8A2F0DA3EFD75E6025F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C508DDA808162A9A667B074 /* Pods-pnhaison.debug.xcconfig */,
+				BA22E6D770DC5AFB08127EC5 /* Pods-pnhaison.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 410E5AA11DBDB40600BEAD86 /* Build configuration list for PBXNativeTarget "pnhaison" */;
 			buildPhases = (
+				1E9D0E6A64E94745328BC177 /* [CP] Check Pods Manifest.lock */,
 				410E5A751DBDB40600BEAD86 /* Sources */,
 				410E5A761DBDB40600BEAD86 /* Frameworks */,
 				410E5A771DBDB40600BEAD86 /* Resources */,
+				2042F35605F3A60A14B94B14 /* [CP] Embed Pods Frameworks */,
+				57971EE61CFC96ED944789F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E9D0E6A64E94745328BC177 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2042F35605F3A60A14B94B14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pnhaison/Pods-pnhaison-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57971EE61CFC96ED944789F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pnhaison/Pods-pnhaison-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		410E5A751DBDB40600BEAD86 /* Sources */ = {
@@ -410,6 +485,7 @@
 		};
 		410E5AA21DBDB40600BEAD86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C508DDA808162A9A667B074 /* Pods-pnhaison.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = pnhaison/Info.plist;
@@ -422,6 +498,7 @@
 		};
 		410E5AA31DBDB40600BEAD86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA22E6D770DC5AFB08127EC5 /* Pods-pnhaison.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = pnhaison/Info.plist;
@@ -505,6 +582,7 @@
 				410E5AA31DBDB40600BEAD86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		410E5AA41DBDB40600BEAD86 /* Build configuration list for PBXNativeTarget "pnhaisonTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +591,7 @@
 				410E5AA61DBDB40600BEAD86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		410E5AA71DBDB40600BEAD86 /* Build configuration list for PBXNativeTarget "pnhaisonUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +600,7 @@
 				410E5AA91DBDB40600BEAD86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
