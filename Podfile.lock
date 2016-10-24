@@ -1,12 +1,12 @@
 PODS:
-  - SlideMenuControllerSwift (3.0.0)
+  - LNSideMenu (2.2)
 
 DEPENDENCIES:
-  - SlideMenuControllerSwift (~> 3.0)
+  - LNSideMenu
 
 SPEC CHECKSUMS:
-  SlideMenuControllerSwift: 9c0a84f9a3fba51681debd7be77617094562ebcc
+  LNSideMenu: 0fd92b9557ee29f6f51feac285dea995e000e2f7
 
-PODFILE CHECKSUM: a811bfcda867e96faa489fa45feee6d0f8e30454
+PODFILE CHECKSUM: 7e0ca46187374e18cf45ae9481b121ffbf859a60
 
 COCOAPODS: 1.1.1
